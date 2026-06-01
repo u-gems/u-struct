@@ -11,8 +11,8 @@
     <img alt="Build Status" src="https://github.com/serradura/u-struct/actions/workflows/ci.yml/badge.svg">
   </a>
   <br/>
-  <a href="https://qlty.sh/gh/serradura/projects/u-struct"><img src="https://qlty.sh/gh/serradura/projects/u-struct/maintainability.svg" alt="Maintainability" /></a>
-  <a href="https://qlty.sh/gh/serradura/projects/u-struct"><img src="https://qlty.sh/gh/serradura/projects/u-struct/coverage.svg" alt="Code Coverage" /></a>
+  <a href="https://qlty.sh/gh/u-gems/projects/u-struct"><img src="https://qlty.sh/gh/u-gems/projects/u-struct/maintainability.svg" alt="Maintainability" /></a>
+  <a href="https://qlty.sh/gh/u-gems/projects/u-struct"><img src="https://qlty.sh/gh/u-gems/projects/u-struct/coverage.svg" alt="Code Coverage" /></a>
   <br/>
   <img src="https://img.shields.io/badge/Ruby%20%3E%3D%202.7%2C%20%3C%3D%20Head-ruby.svg?colorA=444&colorB=333" alt="Ruby">
   <img src="https://img.shields.io/badge/Rails%20%3E%3D%206.0%2C%20%3C%3D%20Edge-rails.svg?colorA=444&colorB=333" alt="Rails">
