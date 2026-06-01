@@ -18,6 +18,14 @@ require:
 AllCops:
   NewCops: enable
   TargetRubyVersion: 2.5
+  # Appraisal config + the gemfiles it generates; these mirror the canonical
+  # kind layout (double-quoted) and aren't linted as project source.
+  Exclude:
+    - 'Appraisals'
+    - 'gemfiles/**/*'
+  inherit_mode:
+    merge:
+      - Exclude
 
 # == Gemspec ==
 
