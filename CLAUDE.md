@@ -2,6 +2,23 @@
 
 Notes for AI assistants working in `u-struct`.
 
+## Golden rule: maintenance mode — no new features, no breaking changes
+
+`u-struct` was created as an alternative to Ruby's native `Data`, which now
+ships with Ruby (3.2+). The gem is therefore considered unnecessary going
+forward and is kept **only to support existing applications**. There are **no
+plans to add new features** — new code should prefer native `Data`.
+
+The public API is **frozen**: every change must keep existing code working.
+Major version bumps are reserved for dependency-floor changes (dropping a Ruby
+or Rails version from the supported matrix) per SemVer — they do **not** signal
+a behavior break.
+
+So scope work to bug/compatibility fixes and supported-matrix upkeep. If a task
+as stated would add a feature or require a breaking change, stop and surface
+that — suggest native `Data` for new capabilities, or propose a backward-
+compatible path. Don't ship the break or the feature creep.
+
 ## How to work in this repo
 
 ### 1. Think before coding
