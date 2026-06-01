@@ -23,6 +23,8 @@
 > **No breaking API changes — ever.** `u-struct`'s public API is frozen: every release stays backward-compatible, so code that builds on it keeps working.
 >
 > Major version bumps signal only that a Ruby or Rails version was dropped from the supported matrix — per SemVer, a dependency-floor change. Your code keeps working.
+>
+> **Maintenance mode.** Ruby 3.2+ ships a native [`Data`](https://docs.ruby-lang.org/en/3.2/Data.html) type that covers this gem's use case; `u-struct` is kept only to support existing apps and gets no new features. New code should prefer `Data`.
 
 # Table of contents: <!-- omit in toc -->
 - [Introduction](#introduction)
