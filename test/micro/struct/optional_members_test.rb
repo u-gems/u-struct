@@ -65,11 +65,11 @@ class Micro::Struct_OptionalMembers_Test < Minitest::Test
 
     error1 = assert_raises(NoMethodError) { person2.first_name = 'Bar' }
 
-    assert_match(/private method `first_name=' called for .*Person2/, error1.message)
+    assert_match(/private method [`']first_name=' called for .*Person2/, error1.message)
 
     error2 = assert_raises(NoMethodError) { person2.last_name = 'Foo' }
 
-    assert_match(/private method `last_name=' called for .*Person2/, error2.message)
+    assert_match(/private method [`']last_name=' called for .*Person2/, error2.message)
   end
 
   def test_the_struct_members

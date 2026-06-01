@@ -41,6 +41,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [Diff](https://github.com/serradura/u-struct/compare/v1.1.0...main)
 
+### Changed
+
+- Bump the minimum supported Ruby to `>= 2.7.0` (was `>= 2.2.0`).
+- Modernize the CI: test against Ruby 2.7 → 4.0 + head and, via Appraisal,
+  against ActiveModel 6.0 → 8.1 + edge (Rails `>= 6.0`).
+
 ## [1.1.0] - 2022-03-23
 
 [Diff](https://github.com/serradura/u-struct/compare/v1.0.0...v1.1.0) | [Tag](https://github.com/serradura/u-struct/tree/v1.1.0)

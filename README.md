@@ -5,19 +5,18 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ruby%20%3E=%202.2,%20%3C%203.2-ruby.svg?colorA=99004d&colorB=cc0066" alt="Ruby">
   <a href="https://rubygems.org/gems/u-struct">
     <img alt="Gem" src="https://img.shields.io/gem/v/u-struct.svg?style=flat-square">
   </a>
   <a href="https://github.com/serradura/u-struct/actions/workflows/ci.yml">
     <img alt="Build Status" src="https://github.com/serradura/u-struct/actions/workflows/ci.yml/badge.svg">
   </a>
-  <a href="https://codeclimate.com/github/serradura/u-struct/maintainability">
-    <img alt="Maintainability" src="https://api.codeclimate.com/v1/badges/2cc0204411cc2b392b7a/maintainability">
-  </a>
-  <a href="https://codeclimate.com/github/serradura/u-struct/test_coverage">
-    <img alt="Test Coverage" src="https://api.codeclimate.com/v1/badges/2cc0204411cc2b392b7a/test_coverage">
-  </a>
+  <br/>
+  <a href="https://qlty.sh/gh/serradura/projects/u-struct"><img src="https://qlty.sh/gh/serradura/projects/u-struct/maintainability.svg" alt="Maintainability" /></a>
+  <a href="https://qlty.sh/gh/serradura/projects/u-struct"><img src="https://qlty.sh/gh/serradura/projects/u-struct/coverage.svg" alt="Code Coverage" /></a>
+  <br/>
+  <img src="https://img.shields.io/badge/Ruby%20%3E%3D%202.7%2C%20%3C%3D%20Head-ruby.svg?colorA=444&colorB=333" alt="Ruby">
+  <img src="https://img.shields.io/badge/Rails%20%3E%3D%206.0%2C%20%3C%3D%20Edge-rails.svg?colorA=444&colorB=333" alt="Rails">
 </p>
 
 # Table of contents: <!-- omit in toc -->
