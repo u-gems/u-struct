@@ -5,38 +5,6 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-- [[Unreleased]](#unreleased)
-- [[1.1.0] - 2022-03-23](#110---2022-03-23)
-  - [Added](#added)
-- [[1.0.0] - 2022-01-20](#100---2022-01-20)
-- [[0.12.0] - 2021-12-22](#0120---2021-12-22)
-  - [Added](#added-1)
-- [[0.11.0] - 2021-12-19](#0110---2021-12-19)
-  - [Added](#added-2)
-- [[0.10.0] - 2021-12-15](#0100---2021-12-15)
-  - [Changed](#changed)
-- [[0.9.0] - 2021-12-14](#090---2021-12-14)
-  - [Added](#added-3)
-  - [Changed](#changed-1)
-- [[0.8.0] - 2021-12-05](#080---2021-12-05)
-  - [Added](#added-4)
-- [[0.7.0] - 2021-12-04](#070---2021-12-04)
-  - [Added](#added-5)
-  - [Changed](#changed-2)
-- [[0.6.0] - 2021-12-03](#060---2021-12-03)
-  - [Added](#added-6)
-- [[0.5.0] - 2021-12-02](#050---2021-12-02)
-  - [Added](#added-7)
-- [[0.4.0] - 2021-12-02](#040---2021-12-02)
-  - [Added](#added-8)
-- [[0.3.1] - 2021-12-02](#031---2021-12-02)
-  - [Fixed](#fixed)
-- [[0.3.0] - 2021-12-02](#030---2021-12-02)
-  - [Added](#added-9)
-- [[0.2.0] - 2021-12-02](#020---2021-12-02)
-  - [Added](#added-10)
-- [[0.1.0] - 2021-12-02](#010---2021-12-02)
-  - [Added](#added-11)
 ## [Unreleased]
 
 ### Changed
@@ -50,12 +18,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add `Micro::Struct[]` as an alias of `Micro::Struct.with`.
+
   ```ruby
   Micro::Struct[:readonly] # is the same as Micro::Struct.with(:readonly)
   ```
 
 - Add `Micro::Struct.immutable` method as a shortcut to `Micro::Struct.with(:readonly, :instance_copy)`.
   It also accepts the `with:` option, which can be used to define additional features.
+
   ```ruby
   Micro::Struct.immutable.new(:name)
 
@@ -76,6 +46,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add `Micro::Struct.readonly` method as a shortcut to `Micro::Struct.with(:readonly)`.
   It has the same properties of `Micro::Struct.immutable`.
+
   ```ruby
   Micro::Struct.readonly.new(:name)
 
@@ -93,7 +64,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
   Micro::Struct.readonly(with: [:to_hash]).instance(name: 'Serradura')
   ```
-**Development stuff**
+
+  **Development stuff**
 
 - Set up Rubocop.
 - Add `.rbi` files, and set up sorbet to be used in development.
@@ -131,6 +103,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   person2.first_name = 'John'
   # NoMethodError (private method `first_name=' called for #<struct first_name="Rodrigo", last_name="Serradura">)
   ```
+
   You can use pass a block to define some custom behavior to the struct instance.
 
   ```ruby
