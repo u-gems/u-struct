@@ -1,7 +1,6 @@
 <p align="center">
   <h1 align="center">🧱 μ-struct</h1>
   <p align="center"><i>Create powered Ruby structs.</i></p>
-  <br>
 </p>
 
 <p align="center">
@@ -27,6 +26,7 @@
 > **Maintenance mode.** Ruby 3.2+ ships a native [`Data`](https://docs.ruby-lang.org/en/3.2/Data.html) type that covers this gem's use case; `u-struct` is kept only to support existing apps and gets no new features. New code should prefer `Data`.
 
 # Table of contents: <!-- omit in toc -->
+
 - [Introduction](#introduction)
   - [Motivation](#motivation)
 - [Installation](#installation)
@@ -295,6 +295,7 @@ person.name       # "Rodrigo Serradura"
 This method can do two things: first, it can create `Struct` factories; second, it sets some special behavior to their structs.
 
 These are all of the available features which you can use (pick one, many, or all of them):
+
 - [`:to_ary`](#to_ary)
 - [`:to_hash`](#to_hash)
 - [`:to_proc`](#to_proc)
@@ -340,6 +341,7 @@ new_person.class == person.class
 ### `Micro::Struct[]`
 
 The `[]` brackets method is as an alias of `Micro::Struct.with`. e.g.
+
 ```ruby
 Micro::Struct[:readonly, :to_hash] # is the same as Micro::Struct.with(:readonly, :to_hash)
 ```
@@ -537,6 +539,7 @@ This method is as a shortcut to `Micro::Struct.with(:readonly, :instance_copy)`.
 As it is quite common to see the usage of these two features, I decided to create this method to improve the DX.
 
 Additional info:
+
 1. It accepts the `with:` option, which can be used to define additional features.
 2. The `.instance` method can be called after its usage.
 
@@ -567,6 +570,7 @@ Micro::Struct.immutable(with: [:to_hash]).instance(name: 'Serradura')
 This method is as a shortcut to `Micro::Struct.with(:readonly)`.
 
 Additional info:
+
 1. It accepts the `with:` option, which can be used to define additional features.
 2. The `.instance` method can be called after its usage.
 
@@ -749,6 +753,7 @@ RGBColor.new(red: 1, green: -1, blue: 255)
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 Additional tools:
+
 - Sorbet (type checker): `bundle exec srb tc` (requires `Ruby >= 2.7`).
 - Rubocop (linter and code formatter): `bundle rubocop` (requires `Ruby >= 2.5`).
 
