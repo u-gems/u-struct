@@ -7,8 +7,8 @@
   <a href="https://rubygems.org/gems/u-struct">
     <img alt="Gem" src="https://img.shields.io/gem/v/u-struct.svg?style=flat-square">
   </a>
-  <a href="https://github.com/serradura/u-struct/actions/workflows/ci.yml">
-    <img alt="Build Status" src="https://github.com/serradura/u-struct/actions/workflows/ci.yml/badge.svg">
+  <a href="https://github.com/u-gems/u-struct/actions/workflows/ci.yml">
+    <img alt="Build Status" src="https://github.com/u-gems/u-struct/actions/workflows/ci.yml/badge.svg">
   </a>
   <br/>
   <a href="https://qlty.sh/gh/u-gems/projects/u-struct"><img src="https://qlty.sh/gh/u-gems/projects/u-struct/maintainability.svg" alt="Maintainability" /></a>
@@ -763,7 +763,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/serradura/u-struct. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/serradura/u-struct/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/u-gems/u-struct. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/u-gems/u-struct/blob/main/CODE_OF_CONDUCT.md).
 
 <p align="right">(<a href="#table-of-contents-">⬆️ &nbsp;back to top</a>)</p>
 
@@ -775,7 +775,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the `Micro::Struct` project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/serradura/u-struct/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the `Micro::Struct` project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/u-gems/u-struct/blob/main/CODE_OF_CONDUCT.md).
 
 <p align="right">(<a href="#table-of-contents-">⬆️ &nbsp;back to top</a>)</p>
 

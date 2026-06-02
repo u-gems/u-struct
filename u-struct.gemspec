@@ -10,13 +10,13 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Create powered Ruby structs.'
   spec.description   = 'Create powered Ruby structs.'
-  spec.homepage      = 'https://github.com/serradura/u-struct'
+  spec.homepage      = 'https://github.com/u-gems/u-struct'
   spec.license       = 'MIT'
   spec.required_ruby_version = '>= 2.7.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/serradura/u-struct'
-  spec.metadata['changelog_uri'] = 'https://github.com/serradura/u-struct/blob/main/CHANGELOG.md'
+  spec.metadata['source_code_uri'] = 'https://github.com/u-gems/u-struct'
+  spec.metadata['changelog_uri'] = 'https://github.com/u-gems/u-struct/blob/main/CHANGELOG.md'
   spec.metadata['bug_tracker_uri'] = "#{spec.homepage}/issues"
 
   # Specify which files should be added to the gem when it is released.
