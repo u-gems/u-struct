@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-06-01
+
 ### Changed
 
 - Bump the minimum supported Ruby to `>= 2.7.0` (was `>= 2.2.0`).
@@ -535,7 +537,8 @@ Person::Struct.new
 
 <p align="right">(<a href="#changelog-">⬆️ &nbsp;back to top</a>)</p>
 
-[Unreleased]: https://github.com/u-gems/u-struct/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/u-gems/u-struct/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/u-gems/u-struct/compare/v1.1.0...v2.0.0
 [1.1.0]: https://github.com/u-gems/u-struct/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/u-gems/u-struct/compare/v0.12.0...v1.0.0
 [0.12.0]: https://github.com/u-gems/u-struct/compare/v0.11.0...v0.12.0
